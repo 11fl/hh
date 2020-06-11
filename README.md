@@ -12,3 +12,5 @@ Only with salary showed
 In prometheus.yml you must change ip.
 Flask is in dev mode.
 No preconfigured grafana dashboard.
+
+Use grafana and prometheus from docker.
