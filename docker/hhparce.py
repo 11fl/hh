@@ -36,7 +36,7 @@ def walk1() -> str:
     fin = newcount.split(' ')[0]
     return f'num_of_jobs_now \t {fin}'
 
-def getSalary():
+def getSalary() -> str:
     '''
     Getting salary from all positions
     '''
