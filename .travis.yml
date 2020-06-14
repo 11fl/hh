@@ -3,6 +3,6 @@ python:
   - "3.8"
 cache: pip
 install:
-  - pip install -r /docker/requirements.txt
+  - pip install -r docker/requirements.txt
 script:
-  - python test_hh.py
+  - python docker/test_hh.py
