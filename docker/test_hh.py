@@ -13,8 +13,5 @@ class TestHH(unittest.TestCase):
         result = hhparce.reg(string)
         self.assertEqual(result, 150000)
 
-    def test_wtf(self):
-        self.assertEqual(sum([1,1]), 2)
-
 if __name__ == "__main__":
     unittest.main()
